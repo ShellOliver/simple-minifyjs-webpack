@@ -1,0 +1,15 @@
+{
+  "name": "minifywebpack",
+  "version": "1.0.0",
+  "description": "minificar js",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack"
+  },
+  "author": "ShellOliver",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.6.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
