@@ -8,6 +8,17 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.bundle.js'
   },
+  module: {
+    loaders: [
+        {
+            test: /\.js$/,
+            loader: 'babel-loader',
+            query: {
+                presets: ['es2015']
+            }
+        }
+    ]
+  },
   target: 'node',
   externals: [nodeExternals()],
   plugins: [

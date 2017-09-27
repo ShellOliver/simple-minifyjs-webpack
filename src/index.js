@@ -1,5 +1,2 @@
-//asdasd
-console.log('aqui');
-
-//asgasd asdas
-console.log('aqui2');
+import path from 'path';
+console.log('test');
